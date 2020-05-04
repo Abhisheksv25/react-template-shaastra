@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+h1, p {
+  font-family: Lato;
+}
+#full
+{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("https://ak.picdn.net/shutterstock/videos/1019866207/thumb/1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  background-image: linear-gradient(to right,#ff49ff73, #17c9ff7e );
+    position: relative;
+  
+}
+#backimg
+{
+  opacity: 0.55;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  max-width: none;
+  overflow: auto;
+  
+}
+#main
+{
+background: rgba(255, 255, 255, 0.95);
+width: 25em;
+margin:0 auto;
+text-align:center;
+padding-bottom: 30px; 
+padding-top: 10px;  
+position: fixed;
+border: 2px ;
+border-radius: 8px;
+opacity: 0.97;
+}
+#left
+{
+  float: left;
+  margin-top: 90px;
+  font-weight:bolder;
+  color: rgb(32, 32, 32);
+  opacity: 0.4;
+
+}
+#right
+{
+  float: right;
+  margin-top: 90px;
+  color: rgb(32, 32, 32);
+  opacity: 0.4;
+}
+
+#pic
+{
+  width: 30%;
+  height:30%;
+  border-radius: 50%;
+  margin-top: 50px;
+  opacity: 0.8;
+}
+
+#name
+{
+    color: black;
+		font-family: "raleway";
+		font-size: 1.85em;
+		font-weight: 100;
+		line-height: 2;
+		letter-spacing: 0.22em;
+		text-transform: uppercase;	
+    padding: 0.75em 0 0 0em;
+    opacity: 0.7;
+    margin: 0 0 0.525em 0;
+
+}
+#occupation
+{
+    color: black;
+		font-family: "raleway";
+		font-size: 2.2vh;
+		font-weight: 300;
+		line-height: 2;
+    opacity: 0.7;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+    padding: 1.5pt 1pt 0 1pt;
+
+}
+.icons
+{
+  list-style-type: none;
+  align-self: flex-end;
+		width: 100%;
+		padding: 0 0 0 0;
+		color: rgba(255, 255, 255, 0.75);
+		cursor: default;
+		text-align: center;
+}
+#twitter
+{
+  width: 18%;
+  padding: 0em 0 2.4em 0;
+	color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+  float: left;
+  margin-left: 21%;
+  opacity: 0.45;
+
+}
+/*persian red twitter logo*/
+#instagram
+{
+  width: 18%;
+  padding: 0em 0 2em 0;
+	color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+  float: left;
+  margin-left: 2%;
+  opacity: 0.45;
+}
+#facebook
+{
+  width: 18%;
+  padding: 0em 0 2em 0;
+	color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+  float: left;
+  margin-left: 2%;
+  opacity: 0.45;
+}
+#footer
+{
+  z-index: 4;
+  align-self: flex-end;
+	width: 100%;
+	padding: 1.5em 0 0 0;
+	color: rgba(255, 255, 255, 0.856);
+	cursor: default;
+	text-align: center;
+  list-style-type: none;
+}
+.copyright
+{
+    list-style-type: none;
+
+}
+#link
+{
+  color:rgba(255, 255, 255, 0.75);
+  font-style: normal;
+}
+#link:hover
+{
+  color:purple;
+  font-style: normal;
+
+}
